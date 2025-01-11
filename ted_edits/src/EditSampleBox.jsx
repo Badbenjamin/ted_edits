@@ -1,11 +1,12 @@
-import HOMER from "./assets/Homer_at_the_Bat.gif"
-// import TEST from "./TEST.png"
+import ThumbNail from "./Thumbnail"
+import ThumbnailCopy from "./ThumbnailCopy"
 
-export default function EditSampleBox(){
+export default function EditSampleBox({gif}){
+    console.log(gif)
     return(
         <div>
-            <img className="homer" src={HOMER} alt='homer gif'/>
-            <p>image goes here?</p>
+            <ThumbNail gif={gif}/>
+            <ThumbnailCopy/>
         </div>
     )
 }

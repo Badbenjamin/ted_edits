@@ -1,7 +1,10 @@
-import HOMER from './assets/Homer_at_the_Bat.gif'
 
-export default function ThumbNail(){
+
+export default function ThumbNail({gif}){
     return(
-        <img className="homer" src={HOMER} alt='homer gif'/>
+        <div>
+            <img className="homer" src={gif} alt='homer gif'/>
+        </div>
+        
     )
 }
