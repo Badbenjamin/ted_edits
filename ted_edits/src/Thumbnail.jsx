@@ -3,7 +3,7 @@
 export default function ThumbNail({gif}){
     return(
         <div>
-            <img className="homer" src={gif} alt='homer gif'/>
+            <img className="thumbnail" src={gif} alt='alt text'/>
         </div>
         
     )

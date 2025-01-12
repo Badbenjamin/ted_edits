@@ -9,21 +9,28 @@ import EditSampleBox from './EditSampleBox'
 import HOMER from './assets/Homer_at_the_Bat.gif'
 import OCP from './assets/OCP10.jpg'
 
-const thumbnailArray = [HOMER, OCP]
+const thumbnailArray = [HOMER, OCP, HOMER, OCP]
 
 
 const sampleGallery = thumbnailArray.map((thumb)=>{
-  return <EditSampleBox gif={thumb}/>
+  return <EditSampleBox className="edit-sample-box" gif={thumb}/>
 })
 
 function App() {
   
   return (
-    <>
-      <TopBar/>
-      {sampleGallery}
+    <div className='container'>
+      <div className='header'>
+        <TopBar/>
+      </div>
+      <div className='edit-content'>
+        {sampleGallery}
+      </div>
+      <div className='footer'>
+        <p>ted@fuckmail.cum</p>
+      </div>
       
-    </>
+    </div>
   )
 }
 
