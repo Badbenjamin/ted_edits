@@ -86,7 +86,9 @@
 }
 
 .tn-copy{
-  background-color: rgb(124, 124, 124);
+  background-color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 5px;
+  color: black;
+  font-weight: bold;
 }
