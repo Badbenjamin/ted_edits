@@ -92,3 +92,19 @@
   color: black;
   font-weight: bold;
 }
+
+p{
+  color: black;
+}
+
+.thumb_title{
+  font-weight: bold;
+  size: 10px;
+  color: black;
+}
+
+.network_role{
+  font-weight: bold;
+  size: 10px;
+  color: black;
+}

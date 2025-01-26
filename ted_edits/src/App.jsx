@@ -3,14 +3,22 @@ import './App.css'
 import TopBar from './TopBar'
 import EditSampleBox from './EditSampleBox'
 
-import HOMER from './assets/Homer_at_the_Bat.gif'
-import OCP from './assets/OCP10.jpg'
+import { editsArray } from './EditsObject'
 
-const thumbnailArray = [HOMER, OCP, HOMER, OCP]
+// const thumbnailArray = [HOMER, OCP, HOMER, OCP]
 
 
-const sampleGallery = thumbnailArray.map((thumb)=>{
-  return <EditSampleBox className="edit-sample-box" gif={thumb}/>
+const sampleGallery = editsArray.map((editObject)=>{
+  console.log(editObject['THUMBNAIL'])
+  return <EditSampleBox 
+          key={editObject['id']}
+          className="edit-sample-box" 
+          THUMBNAIL={editObject['THUMBNAIL']}
+          GALLERY_ASSET={editObject['GALLERY_ASSET']}
+          NETWORK={editObject['NETWORK']}
+          ROLE={editObject['ROLE']}
+          COPY={editObject['COPY']}
+          />
 })
 
 function App() {
