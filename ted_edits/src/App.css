@@ -95,12 +95,15 @@
 
 p{
   color: black;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .thumb_title{
   font-weight: bold;
   size: 10px;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .network_role{

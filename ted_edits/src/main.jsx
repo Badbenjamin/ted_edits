@@ -7,6 +7,7 @@ import App from './App.jsx'
 import ErrorElement from './ErrorElement.jsx'
 import WorkPage from './WorkPage.jsx'
 import About from './About.jsx'
+import EditInfoPage from './EditInfoPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About/>,
+  },
+  {
+    path: '/edits/:id',
+    element: <EditInfoPage/>
   }
 ])
 
