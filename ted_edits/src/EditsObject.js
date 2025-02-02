@@ -11,8 +11,9 @@ import WASH from './assets/Washingtonia.gif'
 export const editsArray = [
     {
         "id" : 1,
+        "EMBED_PLATFORM" : "https://player.vimeo.com/video/",
         "GALLERY_ASSET" : "Ada",
-        "EXTERNAL_LINK" : "https://vimeo.com/904701875/643f601051?share=copy",
+        "EXTERNAL_LINK" : "904701875?h=643f601051&amp",
         "THUMBNAIL" : ADA,
         "ROLE" : "SERIES EDITOR",
         "NETWORK" : "TED-Ed",
@@ -20,8 +21,9 @@ export const editsArray = [
     },
     {
         "id" : 2,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/", 
         "GALLERY_ASSET" : "Tooning Out the News",
-        "EXTERNAL_LINK" : "https://www.youtube.com/watch?v=hjs5cQJ-plQ",
+        "EXTERNAL_LINK" : "hjs5cQJ-plQ",
         "THUMBNAIL" : OCP,
         "ROLE" : "EDITOR",
         "NETWORK" : "Comedy Central",
@@ -29,8 +31,9 @@ export const editsArray = [
     },
     {
         "id" : 3,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "Our Cartoon President",
-        "EXTERNAL_LINK" : "https://www.youtube.com/watch?v=tv_YFL9WYLk",
+        "EXTERNAL_LINK" : "tv_YFL9WYLk",
         "THUMBNAIL" : TOTN,
         "ROLE" : "EDITOR",
         "NETWORK" : "Showtime",
@@ -38,8 +41,9 @@ export const editsArray = [
     },
     {
         "id" : 4,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "Washingtonia",
-        "EXTERNAL_LINK" : "https://www.youtube.com/watch?v=elgW846vKtE&t=8s",
+        "EXTERNAL_LINK" : "elgW846vKtE?si=QnIEulwycFFjj5x5",
         "THUMBNAIL" : WASH,
         "ROLE" : "EDITOR",
         "NETWORK" : "Comedy Central Unaired Pilot",
@@ -47,8 +51,9 @@ export const editsArray = [
     },
     {
         "id" : 5,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "Fairview ",
-        "EXTERNAL_LINK" : "https://www.youtube.com/watch?v=vLd2K0XSR_g",
+        "EXTERNAL_LINK" : "vLd2K0XSR_g",
         "THUMBNAIL" : OCP,
         "ROLE" : "EDITOR",
         "NETWORK" : "Comedy Central",
@@ -56,8 +61,9 @@ export const editsArray = [
     },
     {
         "id" : 6,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "John Hardy",
-        "EXTERNAL_LINK" : "https://youtu.be/JJ0Uth1ZO8I",
+        "EXTERNAL_LINK" : "JJ0Uth1ZO8I",
         "THUMBNAIL" : JH,
         "ROLE" : "EDITOR",
         "NETWORK" : "DC Post - John Hardy On Figure Campaignl",
@@ -65,8 +71,9 @@ export const editsArray = [
     },
     {
         "id" : 7,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "Springfield of Dreams",
-        "EXTERNAL_LINK" : "https://youtu.be/JJ0Uth1ZO8I",
+        "EXTERNAL_LINK" : "Rakj3zmCpXc?si=QLaoDyYsL8cHDvkc",
         "THUMBNAIL" : HOMER,
         "ROLE" : "ASSOCIATE POST-PRODUCER",
         "NETWORK" : "Fox Sports",
@@ -74,8 +81,9 @@ export const editsArray = [
     },
     {
         "id" : 8,
+        "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "Cultureshock",
-        "EXTERNAL_LINK" : "https://www.youtube.com/watch?v=YZd3VCinSk0",
+        "EXTERNAL_LINK" : "YZd3VCinSk0",
         "THUMBNAIL" : CSHOCK,
         "ROLE" : "LEAD ASSISTANT EDITOR",
         "NETWORK" : "A&E",
