@@ -91,46 +91,48 @@
   margin-left: auto;
 }
 
-
-
 .edit-sample-box{
   max-width: 400px;
   margin: 0;
   display: grid;
   padding: 5px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 3px;
+  /* background-color: rgb(255, 255, 255); */
+  /* border-radius: 3px; */
 }
 
-.tn-copy{
+/* .tn-copy{
   background-color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 5px;
-  color: black;
+  color: white;
   font-weight: bold;
-}
+} */
 
-p{
-  color: black;
+/* p{
+  color: white;
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 .thumb_title{
   font-weight: bold;
   size: 10px;
-  color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.network_role{
-  font-weight: bold;
-  size: 10px;
-  color: black;
 }
 
 .edit_embed{
   height: 400px;
   width: 600px;
+}
 
+.edit_copy{
+  font-size: medium;
+  color: white;
+}
+
+.iframe{
+  /* width: auto; */
+  /* height: auto; */
+  /* max-width: 600px; */
 }
