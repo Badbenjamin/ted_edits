@@ -7,18 +7,18 @@ export default function TopBar(){
     let navigate = useNavigate()
 
     // console.log("p",params)
-    function onClick(){
-        console.log("click click...")
-    }
+    // function onClick(){
+    //     console.log("click click...")
+    // }
 
-    onClick(()=>{
+    // onClick(()=>{
 
-    })
+    // })
 
     return(
         <div className="top-bar-container">
             <div className='top-bar-left'>
-                <img className="title" src={LOGO} ></img>
+                <img className="title" onClick={()=>{navigate('/')}} src={LOGO} ></img>
             </div>
             <div className='tob-bar-right'>
                 <span onClick={()=>{navigate('/')}}>WORK </span><span>:</span><span onClick={()=>{navigate('/about')}}> ABOUT</span>

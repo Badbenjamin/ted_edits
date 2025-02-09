@@ -34,7 +34,6 @@
   max-width: 1200px;
   margin: 0 auto;
   grid-row: 2;
-  /* background-color: red; */
   padding: 5px;
   gap: 1rem;
 }
@@ -92,7 +91,7 @@
 }
 
 .edit-sample-box{
-  max-width: 400px;
+  /* max-width: 400px; */
   margin: 0;
   display: grid;
   padding: 5px;
@@ -132,6 +131,9 @@
 }
 
 .iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   /* width: auto; */
   /* height: auto; */
   /* max-width: 600px; */
