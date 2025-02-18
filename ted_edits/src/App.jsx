@@ -1,20 +1,12 @@
 import { Link, useNavigate } from 'react-router'
 import { useEffect, useState } from 'react'
 
+
 import './App.css'
 
 import TopBar from './TopBar'
 import EditSampleBox from './EditSampleBox'
-
 import { editsArray } from './EditsObject'
-
-// const thumbnailArray = [HOMER, OCP, HOMER, OCP]
-// navigate = useNavigate()
-
-
-
-
-
 
 function App() {
   let [windowSize, setWindowSize] = useState({"width" : window.innerWidth, "height" : window.innerHeight})
@@ -50,7 +42,7 @@ function App() {
   }, [])
 
   return (
-    <div className='container'>
+    <div className='app-container'>
       
       <div className='header'>
         <TopBar/>

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { useParams } from "react-router"
 import { editsArray } from "./EditsObject"
 import TopBar from "./TopBar"
+import EditInfo from "./EditInfo"
 
 // function getWindowDimensions(){
 // //     const {innerWidth: width, innerHeight : height} = window
@@ -46,20 +47,9 @@ export default function EditInfoPage(){
 
     
     return(
-        <div className="edit_info_container">
+        <div className="edit-info-container">
             <TopBar/>
-            <iframe className="iframe" 
-                height={windowSize['height']/1.5}
-                width={windowSize['width']/1.5}
-                src={`${embedPlatform}${embedId}`} 
-                title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen></iframe>
-            <h1>{editObj[0].GALLERY_ASSET}</h1>
-            <h2>{editObj[0]["ROLE"]} - {editObj[0]['NETWORK']}</h2>
-            <p className="edit_copy">{editObj[0]['COPY']}</p>
-            
+            <EditInfo editObj={editObj} windowSize={windowSize} embedPlatform={embedPlatform} embedId={embedId}/>
         </div>
     )
 }
