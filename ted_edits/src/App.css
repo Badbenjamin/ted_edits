@@ -66,7 +66,7 @@
 
 .top-bar-container{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   /* justify-content: space-between; */
   align-items: center;
 }
@@ -124,6 +124,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .edit-info{
@@ -140,6 +143,19 @@
   padding: 20px;
 }
 
-.edit-inof-text{
-  padding: 50px;
+.edit-info-text{
+  padding: 10px 50px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.nav-button{
+  background-color: white;
+}
+
+.nav-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adds space between buttons */
+  padding: 10px;
 }
