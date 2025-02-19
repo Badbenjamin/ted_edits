@@ -71,6 +71,8 @@
   "content"
   "footer";
   padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .top-bar-container{
