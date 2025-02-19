@@ -20,8 +20,8 @@ export default function TopBar(){
             <div className='top-bar-left'>
                 <img className="title" onClick={()=>{navigate('/')}} src={LOGO} ></img>
             </div>
-            <div className='tob-bar-right'>
-                <span onClick={()=>{navigate('/')}}>WORK </span><span>:</span><span onClick={()=>{navigate('/about')}}> ABOUT</span>
+            <div className='top-bar-right'>
+                <span onClick={()=>{navigate('/')}}>WORK </span><span></span><span onClick={()=>{navigate('/about')}}> ABOUT</span>
             </div> 
         </div>
     )

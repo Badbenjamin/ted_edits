@@ -6,6 +6,7 @@ import './App.css'
 
 import TopBar from './TopBar'
 import EditSampleBox from './EditSampleBox'
+import Footer from './Footer'
 import { editsArray } from './EditsObject'
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
         {sampleGallery}
       </div>
       <div className='footer'>
-        <p>ted@fuckmail.cum</p>
+        <Footer/>
       </div>
       
     </div>
