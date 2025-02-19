@@ -1,10 +1,11 @@
-import HOMER from './assets/Homer_at_the_Bat.gif'
-import OCP from './assets/OCP10.jpg'
-import ADA from './assets/ADA3.gif'
-import CSHOCK from './assets/Cultureshock.gif'
-import JH from './assets/John Hardy 2.gif'
-import TOTN from './assets/TOTN4.gif'
-import WASH from './assets/Washingtonia.gif'
+import HOMER from './assets/Homer_540p.gif'
+import OCP from './assets/OCP_540p.gif'
+import ADA from './assets/ada_540p.gif'
+import CSHOCK from './assets/Cultureshock_02_540p.gif'
+import JH from './assets/John Hardy 540p.gif'
+import TOTN from './assets/TOTN_540p.gif'
+import WASH from './assets/Washingtonia_540p.gif'
+import FAIR from './assets/Fairview_540p.gif'
 
 
 
@@ -54,7 +55,7 @@ export const editsArray = [
         "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
         "GALLERY_ASSET" : "Fairview ",
         "EXTERNAL_LINK" : "vLd2K0XSR_g",
-        "THUMBNAIL" : OCP,
+        "THUMBNAIL" : FAIR,
         "ROLE" : "EDITOR",
         "NETWORK" : "Comedy Central",
         "COPY" : "Fairview is \"A tasteless mockery of small town America\" - The Daily Beast",
