@@ -34,6 +34,7 @@
 }
 
 .edit-content{
+  padding-top: 10px;
   display: grid;
   max-width: 1200px;
   /* margin: 0 auto; */
@@ -56,15 +57,15 @@
 
 
 .thumbnail{
-  border-style: solid;
-  border-color: white;
+  /* border-style: solid; */
+  /* border-color: white; */
   border-radius: 20px;
   max-width: 90%;
 }
 
 .app-container{
-  border-style: solid;
-  border-radius: 20px;
+  /* border-style: solid;
+  border-radius: 20px; */
   display: grid;
   grid-template-areas: 
   "header header"
@@ -72,7 +73,7 @@
   "footer";
   padding: 20px;
   align-items: center;
-  justify-content: center;
+  
 }
 
 .top-bar-container{
@@ -83,7 +84,7 @@
 }
 
 .top-bar-left{
-  padding: 40px;
+  padding: 40px, 0px;
 }
 
 .top-bar-right{
@@ -93,13 +94,26 @@
 }
 
 
-.title{
-  max-width: 500px;
-  max-height: auto;
-  height: auto;
-  width: auto;
-  /* padding: 40px; */
-  /* margin-left: auto; */
+.logo {
+  max-width: 500px;     /* Make logo scale with container width */
+  width: auto;         /* Allow natural scaling */
+  height: auto;        /* Maintain aspect ratio */
+  display: block;      /* Eliminate any inline spacing issues */
+  margin: 0 auto;      /* Center the logo */
+}
+
+/* Add media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 350px;    /* Slightly smaller on tablets */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    max-width: 250px;    /* Even smaller on phones */
+    padding: 10px 0;   /* Add some vertical spacing */
+  }
 }
 
 .edit-sample-box{
@@ -142,28 +156,64 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-style: solid;
-  border-color: white;
-  border-radius: 20px;
+  /* border-style: solid;
+  border-color: white; */
+  /* border-radius: 20px; */
+ 
 }
 
-.edit-info-container{
-  padding: 20px;
+.edit-title-and-text-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .edit-info-text{
-  padding: 10px 50px;
+  width: 50%;
+  float: right;
+  margin-top: 0;
+  padding-left: 10px;
+  /* padding-right: 20px; */
+  /* padding: 10px 50px;
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 20px; */
+}
+
+.edit-info-title{
+  padding-right: 20px;
+  margin-top: 0;
+  width: 50%;
+  float: left;
+  text-align: right;
+  font-size: 10px;
+  /* padding-right: 20px; */
+  /* padding-left: 20px; */
 }
 
 .nav-button{
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  margin: 0 10px;
+  color: white;
+  
 }
 
 .nav-buttons{
   display: flex;
   justify-content: center;
-  gap: 10px; /* Adds space between buttons */
-  padding: 10px;
+  align-items: center;
+  margin-top: 20px;  /* Add some space above the buttons */
+ 
+
+}
+
+.about{
+  padding-top: 10px;
+}
+.about-paragraph{
+  padding: 20px;
+  /* border-style: solid;
+  border-radius: 20px; */
 }

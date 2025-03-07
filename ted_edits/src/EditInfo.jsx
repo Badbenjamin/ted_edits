@@ -34,10 +34,14 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
                     referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen></iframe>
             </div>
-            <div className="edit-info-text">
-                <h1>{editObj[0].GALLERY_ASSET}</h1>
-                <h2>{editObj[0]["ROLE"]} - {editObj[0]['NETWORK']}</h2>
-                <p className="edit_copy">{editObj[0]['COPY']}</p>
+            <div className='edit-title-and-text-container'>
+                <div className="edit-info-title">
+                    <h1>{editObj[0].GALLERY_ASSET}</h1>
+                </div>
+                <div className="edit-info-text">
+                    <h2>{editObj[0]["ROLE"]} - {editObj[0]['NETWORK']}</h2>
+                    <p className="edit_copy">{editObj[0]['COPY']}</p>
+                </div>
             </div>
             <div className="nav-buttons">
                 <button className="nav-button" onClick={()=>handleNav('prev')}>prev</button><button className="nav-button" onClick={()=>handleNav('next')}>next</button>

@@ -47,9 +47,15 @@ export default function EditInfoPage(){
 
     
     return(
-        <div className="edit-info-container">
-            <TopBar/>
-            <EditInfo editObj={editObj} windowSize={windowSize} embedPlatform={embedPlatform} embedId={embedId}/>
+        <div className="app-container">
+            <div className="header">
+                <TopBar/>
+            </div>
+            
+            <div className="edit-info-container">
+                <EditInfo editObj={editObj} windowSize={windowSize} embedPlatform={embedPlatform} embedId={embedId}/>
+            </div>
         </div>
+        
     )
 }
