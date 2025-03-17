@@ -9,6 +9,8 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
     })
     let currentId = editObj[0].id
     
+    let height = windowSize-['height']
+    let width = windowSize['height']*1.77777
 
     function handleNav(direction){
     
@@ -26,8 +28,8 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
         <div className="edit-info">
             <div className="iframe-container">
                 <iframe className="iframe" 
-                    height={windowSize['height']/2}
-                    width={windowSize['height']/1.14}
+                    height={windowSize['height']}
+                    width={width}
                     src={`${embedPlatform}${embedId}`} 
                     title="YouTube video player" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
