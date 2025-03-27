@@ -103,7 +103,9 @@
   /* padding-left: 40px; */
   /* padding-right: 20px; */
   font-size: 25px;
+  padding-right: 40px;
   justify-self: end;
+  /* justify-self: end; */
   grid-column: 3;
   font-weight: bolder;
 }
@@ -111,14 +113,14 @@
 @media (max-width: 900px){
   .top-bar-right{
     font-size: 20px;
-    padding: 20px;
+    /* padding: 20px; */
   }
 }
 
 @media (max-width: 600px){
   .top-bar-right{
     font-size: 15px;
-    padding: auto;
+    /* padding: auto; */
   }
 }
 
@@ -249,18 +251,33 @@
 } */
 
 .about-container{
+
   padding-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  display: block;
+  display: grid;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  grid-template-columns: 1fr 1fr;
+  /* grid-row: 2; */
+  padding: 5px;
+  gap: 1px;
   margin-left: auto;
   margin-right: auto;
   
+ 
+  
 }
 .about-paragraph{
-  /* padding: 20px; */
+  padding-left: 20px;
+  padding-top: 0px;
   margin-left: auto;
   margin-right: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: black;
+  font-weight: bold;
+  font-size: 20px;
+  /* background: rgba(0,0,0,0.8) */
+  /* background-color: rgba(var(--color), 0.8) */
   /* border-style: solid;
   border-radius: 20px; */
 }
@@ -268,10 +285,20 @@
 .about-image{
   /* margin-left: auto; */
   /* margin-right: auto; */
-  /* display: block; */
-  
-  margin-left: auto;
-  margin-right: auto;
-  /* width: auto; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* width: 100%; */
+  /* max-width: 500px; */
   /* width: 50%; */
+}
+
+.ted-pic{
+
+  max-width: 600px;
+  width: 100%;
+  /* width: 500%; */
+  /* max-width: 100%; */
+  height: auto;
 }
