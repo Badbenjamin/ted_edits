@@ -11,7 +11,7 @@ import EditInfoPage from './EditInfoPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/ted_edits",
+    path: "/",
     element: <App />,
     errorElement: <ErrorElement />,
     children: []
