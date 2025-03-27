@@ -21,7 +21,7 @@ export default function TopBar(){
                 <img className="logo" onClick={()=>{navigate('/ted_edits/')}} src={LOGO} ></img>
             </div>
             <div className='top-bar-right'>
-                <span  onClick={()=>{navigate('/')}}>WORK </span><span>/</span><span onClick={()=>{navigate('/about')}}> ABOUT</span>
+                <span  onClick={()=>{navigate('/ted_edits/')}}>WORK </span><span>/</span><span onClick={()=>{navigate('/about')}}> ABOUT</span>
             </div> 
         </div>
     )
