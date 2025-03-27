@@ -9,9 +9,18 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
     })
     let currentId = editObj[0].id
     
-    let height = windowSize-['height']
-    let width = windowSize['height']*1.77777
-
+    // let height = windowSize['height']
+    let width = 1200
+    if (windowSize['width'] > 1200){
+        width = 1200
+    } else if (windowSize['width'] >= 900 && windowSize['width'] <= 1200){
+        width = 900
+    } else if (windowSize['width'] < 900 && windowSize['width'] >= 600){
+        width = 600
+    } else {
+        width = 450
+    }
+    console.log('ww', windowSize.width)
     function handleNav(direction){
     
         if (direction == 'next' && (currentId + 1 < editIds.length)){
@@ -28,7 +37,7 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
         <div className="edit-info">
             <div className="iframe-container">
                 <iframe className="iframe" 
-                    height={windowSize['height']}
+                    height={width*.5625}
                     width={width}
                     src={`${embedPlatform}${embedId}`} 
                     title="YouTube video player" 
@@ -42,7 +51,7 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
                 </div>
                 <div className="edit-info-text">
                     <h2>{editObj[0]["ROLE"]} - {editObj[0]['NETWORK']}</h2>
-                    <p className="edit_copy">{editObj[0]['COPY']}</p>
+                    <p  className="edit_copy">{editObj[0]['COPY']}</p>
                 </div>
             </div>
             <div className="nav-buttons">

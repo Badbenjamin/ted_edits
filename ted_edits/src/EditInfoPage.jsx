@@ -3,6 +3,8 @@ import { useParams } from "react-router"
 import { editsArray } from "./EditsObject"
 import TopBar from "./TopBar"
 import EditInfo from "./EditInfo"
+import Footer from "./Footer"
+import './App.css'
 
 // function getWindowDimensions(){
 // //     const {innerWidth: width, innerHeight : height} = window
@@ -33,7 +35,7 @@ export default function EditInfoPage(){
             <>loading!</>
         )
     }
-    console.log(window.innerHeight)
+    // console.log(window.innerHeight)
 
     useEffect(()=>{
         function handleResize(){
@@ -52,8 +54,11 @@ export default function EditInfoPage(){
                 <TopBar/>
             </div>
             
-            <div className="edit-info-container">
-                <EditInfo editObj={editObj} windowSize={windowSize} embedPlatform={embedPlatform} embedId={embedId}/>
+            <div className="edit-content">
+                <EditInfo windowSize={windowSize} editObj={editObj} embedPlatform={embedPlatform} embedId={embedId}/>
+            </div>
+            <div className="footer">
+                <Footer/>
             </div>
         </div>
         
