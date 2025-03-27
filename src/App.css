@@ -264,7 +264,7 @@
   margin-right: auto; 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .about-container {
     grid-template-columns: 1fr;
   }
