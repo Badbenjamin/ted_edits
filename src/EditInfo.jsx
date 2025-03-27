@@ -18,7 +18,7 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
     } else if (windowSize['width'] < 900 && windowSize['width'] >= 600){
         width = 600
     } else {
-        width = 450
+        width = 300
     }
     console.log('ww', windowSize.width)
     function handleNav(direction){
