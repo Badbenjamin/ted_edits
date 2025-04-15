@@ -50,7 +50,7 @@ export default function EditInfo({editObj, embedId, embedPlatform, windowSize}){
                     <h1>{editObj[0].GALLERY_ASSET}</h1>
                 </div>
                 <div className="edit-info-text">
-                    <h2>{editObj[0]["ROLE"]} - {editObj[0]['NETWORK']}</h2>
+                    <h2>{editObj[0]["ROLE"]} / {editObj[0]['NETWORK']}</h2>
                     <p  className="edit_copy">{editObj[0]['COPY']}</p>
                 </div>
             </div>

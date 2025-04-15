@@ -1,9 +1,9 @@
 import HOMER from '../public/Homer_540p.gif'
-import OCP from '../public/OCP_540p.gif'
+import TOTN from '../public/OCP_540p.gif'
 import ADA from '../public/ada_540p.gif'
 import CSHOCK from '../public/Cultureshock_02_540p.gif'
 import JH from '../public/John Hardy 540p.gif'
-import TOTN from '../public/TOTN_540p.gif'
+import OCP from '../public/TOTN_540p.gif'
 import WASH from '../public/Washingtonia_540p.gif'
 import FAIR from '../public/Fairview_540p.gif'
 
@@ -16,9 +16,9 @@ export const editsArray = [
         "GALLERY_ASSET" : "Ada",
         "EXTERNAL_LINK" : "904701875?h=643f601051&amp",
         "THUMBNAIL" : ADA,
-        "ROLE" : "SERIES EDITOR",
+        "ROLE" : "EDITOR",
         "NETWORK" : "TED-Ed",
-        "COPY" : "Ada is a five episode series that explores the ethical and social implications of new technologies. Each episode features two visually distinct worlds: Ada’s reality and the future she imagines. Each episode’s imagined future showcases new environments, color palettes, textures, and character designs that reflect the episode’s topic. ",
+        "COPY" : "Ada is a five episode series that explores the ethical and social implications of new technologies. Each episode features two visually distinct worlds: Ada’s reality and the future she imagines. Every imagined future showcases new environments, color palettes, textures, and character designs that reflect the episode’s topic.",
     },
     {
         "id" : 2,
@@ -28,7 +28,7 @@ export const editsArray = [
         "THUMBNAIL" : OCP,
         "ROLE" : "EDITOR",
         "NETWORK" : "Comedy Central",
-        "COPY" : "Stephen Colber Presenets:  Tooning Out The News was a weekly animated news program lampooning current events. Led by anchor James Smartwood and a cast of animated co-conspirators, TOTN parodied top news stories and interviewed real-world guests, newsmakers and analysts.",
+        "COPY" : "Stephen Colbert Presents: Tooning Out The News is a weekly animated news program which aired for three seasons between Comedy Central and Paramount Plus. From script to edit to air, every episode was produced in under a week - and we'd do it all over again the next. Led by anchor James Smartwood and a cast of animated correspondents across the political spectrum, TOTN parodies top news stories while interviewing real-world guests, newsmakers and analysts.",
     },
     {
         "id" : 3,
@@ -38,7 +38,7 @@ export const editsArray = [
         "THUMBNAIL" : TOTN,
         "ROLE" : "EDITOR",
         "NETWORK" : "Showtime",
-        "COPY" : "Our Cartoon President started as a recurring segment on The Late Show With Stephen Colbert, but grew to three seasons of satire. A workplace comedy in the whitehouse, the show skewered the all too real life ring of confidants, family members, and political operatives in the orbit of 45.",
+        "COPY" : "Our Cartoon President is a workplace comedy in the White House, skewering the all-too-real ring of confidants, family members, and political operatives in the orbit of 45. Starting as a recurring segment on The Late Show With Stephen Colbert, OCP grew to three seasons of satire.",
     },
     {
         "id" : 4,
@@ -58,7 +58,7 @@ export const editsArray = [
         "THUMBNAIL" : FAIR,
         "ROLE" : "EDITOR",
         "NETWORK" : "Comedy Central",
-        "COPY" : "Fairview is \"A tasteless mockery of small town America\" - The Daily Beast",
+        "COPY" : "Fairview is a small town sitcom that tackles the currentest of current events. Through the machinations of family squalor and local government, Fairview broke new ground in speed-running a show to air. Designed to be edited quickly and animated simply, the show nimbly reacted to the political and cultural goings-on of its one season run.",
     },
     {
         "id" : 6,
@@ -67,18 +67,18 @@ export const editsArray = [
         "EXTERNAL_LINK" : "JJ0Uth1ZO8I",
         "THUMBNAIL" : JH,
         "ROLE" : "EDITOR",
-        "NETWORK" : "DC Post - John Hardy On Figure Campaignl",
-        "COPY" : "Social and in-store media spots for John Hardy cut with DC Post. Creative Direction by Steven SungJun Heo.",
+        "NETWORK" : "DC Post - John Hardy On Figure Campaign",
+        "COPY" : "Social and in-store media spots for John Hardy, cut for DC Post. Creative Direction by Steven SungJun Heo.",
     },
     {
         "id" : 7,
         "EMBED_PLATFORM" : "https://www.youtube.com/embed/",
-        "GALLERY_ASSET" : "Springfield of Dreams",
+        "GALLERY_ASSET" : "Springfield of Dreams: The Legend of Homer Simpson",
         "EXTERNAL_LINK" : "Rakj3zmCpXc?si=QLaoDyYsL8cHDvkc",
         "THUMBNAIL" : HOMER,
         "ROLE" : "ASSOCIATE POST-PRODUCER",
         "NETWORK" : "Fox Sports",
-        "COPY" : "From Director Morgan Spurlock, Springfield of Dreams: The Legend of Homer SImpson celebrates the 25th anniversary of the Springfield Nuclear Power Plant's victory over the Shelbyville softball team. MLB all-stars, celebrities, and Springfield locals look back at the greatest corporate softball league game ever played."
+        "COPY" : "From Director Morgan Spurlock, Springfield of Dreams: The Legend of Homer Simpson celebrates the 25th anniversary of the Springfield Nuclear Power Plant's victory over the Shelbyville softball team. MLB all-stars, celebrities, and Springfield locals look back at the greatest corporate softball league game ever played."
     },
     {
         "id" : 8,
@@ -88,7 +88,7 @@ export const editsArray = [
         "THUMBNAIL" : CSHOCK,
         "ROLE" : "LEAD ASSISTANT EDITOR",
         "NETWORK" : "A&E",
-        "COPY" : "The Biography® limited original documentary series “Cultureshock” takes an in-depth look at the untold stories behind watershed moments in pop culture that have had a lasting impact on our society. Worked with Morgan Spurlock's Warrior Poets as Lead AE managing three hour long installments: Cultureshock: The Osbournes: The Price of Reality, The Rise of Trash TV, and Chris Rock's 'Bring the Pain'."
+        "COPY" : "The Biography® limited original documentary series “Cultureshock” takes an in-depth look at the untold stories behind watershed moments in pop culture that have had a lasting impact on our society. Worked with Morgan Spurlock's Warrior Poets as Lead AE managing three hour long installments: Cultureshock: The Osbournes: The Price of Reality, The Rise of Trash TV, and Chris Rock's 'Bring the Pain.'"
     },
     
 ]

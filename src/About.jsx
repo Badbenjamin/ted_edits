@@ -1,6 +1,6 @@
 import TopBar from "./TopBar"
 import Footer from "./Footer"
-import TedPic from "../public/ted pic.jpg"
+import TedPortrait from "../public/Ted Protrait.jpg"
 
 export default function About(){
     return(
@@ -10,12 +10,14 @@ export default function About(){
             </div>
             <div className="about-container">
                 <div className="about-image">
-                    <img className="ted-pic" src={TedPic}/>
+                    <img className="ted-pic" src={TedPortrait}/>
                 </div>
                 <div className="about-paragraph">
-                    <p>Ted Eschweiler is a Brooklyn based editor with experience in documentary, branded content, and a specialty in adult animated comedy. His work has been featured every which way TV spews including on Showtime, Comedy Central, and Paramount Plus. In his free time away from an edit bay, Ted likes to bike all through New York, hike outside of it, and generally be in the woods.
+                    <p>Ted Eschweiler is a Brooklyn based editor with experience in documentary, branded content, and a specialty in adult animated comedy. His work has been featured across broadcast and streaming platforms including Showtime, Comedy Central, and Paramount Plus.
                     </p>
+                    <br></br>
                     <p>Let’s make a thing.</p>
+                    <br></br>
                     <p>Ted.Eschweiler@gmail.com</p>
                 </div>
             </div>
