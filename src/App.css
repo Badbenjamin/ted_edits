@@ -46,6 +46,11 @@
   margin-right: auto;
 }
 
+.edit-sample-box{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @media (max-width: 900px){
   .edit-content { 
@@ -55,8 +60,7 @@
 
 @media (max-width: 600px){
   .edit-content {
-    grid-template-columns: repeat(1, 1fr);
-    
+    grid-template-columns: 1fr; 
   }
 }
 
